@@ -9,11 +9,11 @@ public class MainEntry {
 		Integer i1 = MyRegularClass.<Integer>getSum(10, 20);
 		Float f1 = MyRegularClass.<Float>getSum(100f, 200f);
 		
-		System.out.println(mgi1);
-		System.out.println(mgi2);
+		System.out.println("The first key and value is: " + mgi1.getKey() + ", " + mgi1.getValue());
+		System.out.println("The second key and value is: " + mgi2.getKey() + ", " + mgi2.getValue());
 		
-		System.out.println(i1);
-		System.out.println(f1);
+		System.out.println("The Integer sum is: " + i1);
+		System.out.println("The float sum is: " + f1);
 		
 
 	}
